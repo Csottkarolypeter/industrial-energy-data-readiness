@@ -1,0 +1,12 @@
+{
+  "project_reference": null,
+  "input_owner": null,
+  "assessment_period": {"start": null, "end_exclusive": null, "timezone": null},
+  "measurement": {"boundary": null, "quantity_basis": null, "meter_multiplier": null, "evidence_reference": null},
+  "pv": {"existing_dc_kwp": null, "proposed_dc_kwp": null, "inverter_ac_kw": null, "tilt_degrees": null, "azimuth_degrees_and_convention": null, "yield_source_and_version": null, "loss_assumptions": null, "degradation_basis": null, "export_limit_kw": null},
+  "bess": {"nominal_energy_kwh_and_boundary": null, "usable_energy_kwh_and_conditions": null, "charge_kw_and_boundary": null, "discharge_kw_and_boundary": null, "soc_min_fraction": null, "soc_max_fraction": null, "dod_fraction": null, "one_way_charge_efficiency": null, "one_way_discharge_efficiency": null, "round_trip_efficiency_and_boundary": null, "auxiliaries": null, "degradation_and_warranty": null},
+  "tariff": {"currency": null, "vat_basis": null, "commodity_price_and_unit": null, "rhd_components_and_units": null, "demand_charge_and_billing_window": null, "fixed_charges": null, "export_settlement": null, "effective_period": null, "evidence_reference": null},
+  "epc": {"scope_and_interfaces": null, "commissioning_and_tests": null, "performance_risk_allocation": null},
+  "esco": {"baseline_period": null, "adjustment_method": null, "measurement_and_verification": null, "guarantees_and_responsibilities": null},
+  "ppa": {"delivery_and_settlement_point": null, "offtake_profile": null, "term_and_indexation": null, "credit_and_security_assumptions": null, "curtailment_and_termination": null}
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the toolkit and its version when using its methodology or examples."
+type: software
+title: "Industrial Energy Data Readiness Toolkit"
+version: 0.1.0
+authors:
+  - family-names: "Csott"
+    given-names: "Károly Péter"
+url: "https://github.com/Csottkarolypeter/industrial-energy-data-readiness"
+license: MIT
+keywords:
+  - energy data
+  - interval metering
+  - solar PV
+  - battery storage
+  - data validation
+abstract: "A checklist, client input template, field dictionary and read-only consistency checker for industrial energy data preparation, with synthetic teaching examples."

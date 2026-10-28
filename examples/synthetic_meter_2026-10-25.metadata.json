@@ -1,0 +1,31 @@
+{
+  "title": "Synthetic Industrial Load Profile for PV–BESS Screening",
+  "author": "Csott Károly Péter",
+  "author_ascii": "Csott Karoly Peter",
+  "version": "0.1.0",
+  "is_synthetic": true,
+  "timezone": "Europe/Budapest",
+  "interval_minutes": 15,
+  "period_start_utc": "2026-10-24T22:00:00+00:00",
+  "period_end_utc_exclusive": "2026-10-25T23:00:00+00:00",
+  "expected_rows": 100,
+  "site_id": "SYNTHETIC-SITE-001",
+  "meter_id": "SYNTHETIC-GRID-001",
+  "energy_unit": "kWh",
+  "power_unit": "kW",
+  "quantity_basis": "interval_energy",
+  "measurement_boundary": "Common AC boundary; illustrative no-storage baseline",
+  "storage_present": false,
+  "pv_nameplate_dc_kwp_assumption": 600,
+  "pv_inverter_ac_kw_assumption": 450,
+  "pv_model": "Idealized 07:00–17:00 local sine shape capped at 400 kW; no weather model",
+  "within_interval_assumption": "Constant average load and PV in each interval",
+  "limitations": [
+    "Not measured data",
+    "Not a calibrated industrial demand forecast",
+    "Not a PV yield estimate",
+    "No BESS dispatch, tariffs, revenue or project sizing",
+    "Seven days do not establish seasonal or annual representativeness"
+  ],
+  "ai_disclosure": "Prepared with generative AI assistance. Algorithm and assumptions are explicit."
+}
